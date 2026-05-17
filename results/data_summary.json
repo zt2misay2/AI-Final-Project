@@ -1,0 +1,33 @@
+{
+  "raw_rows": 48842,
+  "clean_rows": 45222,
+  "dropped_rows": 3620,
+  "duplicate_rows_before_cleaning": 52,
+  "train_rows": 27133,
+  "val_rows": 9044,
+  "test_rows": 9045,
+  "input_dim": 104,
+  "numeric_features": [
+    "age",
+    "fnlwgt",
+    "education-num",
+    "capital-gain",
+    "capital-loss",
+    "hours-per-week"
+  ],
+  "categorical_features": [
+    "workclass",
+    "education",
+    "marital-status",
+    "occupation",
+    "relationship",
+    "race",
+    "sex",
+    "native-country"
+  ],
+  "label_mapping": {
+    "<=50K": 0,
+    ">50K": 1
+  },
+  "random_state": 42
+}
